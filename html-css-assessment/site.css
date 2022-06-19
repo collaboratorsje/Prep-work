@@ -76,6 +76,50 @@
         margin-left: .5em;
     }
     
+    .card {
+        width: 344px;
+        height: 335px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: box-shadow;   
+    }
+
+    .card:hover {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+    }
+
+    .avatar {
+        float: left;
+        border-radius: 50%;
+        margin: 0 1rem;
+    }
+
+    .title  {
+        display: inline;
+        color: #000;
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .secondary-text {
+        color: #232F34;
+        display: inline;
+        padding: 10px;
+    }
+
+    .body-text {
+        color: #232F34;
+        display: inline;
+        font-size: 11px;
+        max-width: 300px;
+        padding: 16px;
+    }
+
+    .profile {
+        padding: 10px;
+        justify-items: inline;
+    }
+
     @media screen and (max-width: 600px) {
         /* remove the width from the form so that it is just as wide as the screen. */
         form {
